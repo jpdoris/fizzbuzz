@@ -1,6 +1,7 @@
 <?php
 /**
  * FizzBuzz
+ * Jamie Doris
  * Cliche, but useful.  Prints numbers from 1 to 100. For multiples of
  * three print "Fizz" instead of the number and for the multiples of five print
  * "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
@@ -14,7 +15,7 @@ for ($i = 1; $i <= 100; $i++) {
   } else if ($i % 5 == 0) {
     echo "Buzz";
   } else {
-    echo "$i";
+    echo "$i"; // not divisible by 3 or 5, so just print the number
   }
   echo "\n";
 }
