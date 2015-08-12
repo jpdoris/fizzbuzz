@@ -7,11 +7,11 @@
  */
 
 for ($i = 1; $i <= 100; $i++) {
-  if ($i % 3 == 0 && $i % 5 == 0) {
+  if ($i % 3 == 0 && $i % 5 == 0) { // $i is divisible by both 3 and 5
     echo "FizzBuzz";
-  } else if($i % 3 == 0) {
+  } else if ($i % 3 == 0) {
     echo "Fizz";
-  } else if($i % 5 == 0) {
+  } else if ($i % 5 == 0) {
     echo "Buzz";
   } else {
     echo "$i";
